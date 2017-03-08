@@ -1,0 +1,30 @@
+.SecondSection {
+    background: url("../images/intro.jpg") no-repeat center top;
+    height: 800px;
+    background-size: cover;
+    margin-right: -100px;
+    margin-left: -8px;
+    header {
+        h2 {
+            font-size: 4.25em;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 350px;
+            margin-bottom: 0px;
+        }
+        p {
+            text-align: center;
+            font-size: 19px;
+            color: white;
+            padding: 0px 370px;
+            font-weight: 400;
+            a {
+                color: white;
+                letter-spacing: 2px;
+                font-size: 19px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

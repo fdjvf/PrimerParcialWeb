@@ -1,29 +1,134 @@
-<!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Hello...</title>
-    < <link rel="stylesheet" href="css/main.css">
-
+    <title>Big Picture by HTML5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <div id="mainContent">
-        <p id="helloText">?</p>
-        <button id="clickButton" class="buttonStyle">click me</button>
+
+    <section class=" FirstSection FirstBox">
+        <!-- Primer Seccion Menu de Navegación-->
+        <div class="InsideBox El1">
+            <h1>Big Picture</h1>
+        </div>
+        <div class="InsideBox El2">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#one">What I Do</a></li>
+                    <li><a href="#two">Who I Am</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+    <!-- Segunda Seccion-->
+    <section class="SecondSection">
+        <header>
+            <h2>Hey.</h2>
+            <p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="#">HTML5</a>, built on <a href="#">Builder</a>, and released for free under the <a href="#">Creative Commons Attribution license</a>.</p>
+        </header>
+
+    </section>
+
+    <!-- Tercera Seccion-->
+    <section class="ThirdSection">
+        <div>
+            <header>
+                <h2>What I Do</h2>
+                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Cuarta Seccion-->
+    <section class="FourthSection">
+        <div>
+            <h2>Who I Am</h2>
+            <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+        </div>
+
+    </section>
+
+
+    <!--Quinta Seccion-->
+    <section class="Box">
+        <div class="InsideBox2 El1">
+            <h2>My Work</h2>
+            <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.
+            </p>
+        </div>
+
+        <div class="InsideBox2 El2">
+            <div>
+                <a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
+            </div>
+            <div>
+                <a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+            </div>
+            <div>
+                <a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+            </div>
+            <div>
+                <a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+            </div>
+            <div>
+                <a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+            </div>
+            <div>
+                <a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div>
+        <div>
+            <div>
+                <h2>Say Hello.</h2>
+                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+            </div>
+            <div>
+                <form method="post" action="#">
+                    <div><input type="text" name="name" placeholder="Name" /></div>
+                    <div><input type="email" name="email" placeholder="Email" /></div>
+                    <div><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+                    <div>
+                        <input type="submit" value="Send Message" />
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <script>
-        var myButton = document.getElementById("clickButton");
-        var myText = document.getElementById("helloText");
 
-        myButton.addEventListener('click', doSomething, false)
+    <div>
 
-        function doSomething() {
-            myText.textContent = "hello, Danni!";
-        }
-    </script>
+        <!-- Icons -->
+        <ul>
+            <li><a href="#"><span>Twitter</span></a></li>
+            <li><a href="#"><span>Facebook</span></a></li>
+            <li><a href="#"><span>Instagram</span></a></li>
+            <li><a href="#"><span>LinkedIn</span></a></li>
+            <li><a href="#"><span>Dribbble</span></a></li>
+            <li><a href="#"><span>Pinterest</span></a></li>
+        </ul>
+
+        <ul>
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="#">HTML5</a></li>
+        </ul>
+
+    </div>
+
 
 </body>
 

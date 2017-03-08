@@ -1,0 +1,61 @@
+//Tercera seccion de la pagina utilizando flex para el display de cada grupo de elemntos (Article)
+$LeftRightMargin:60px;
+.FirstSection {
+    position: fixed;
+    background: white;
+    top: 0px;
+    margin-left: -10px;
+    width: 100%;
+    h1 {
+        font-size: 17px;
+    }
+    nav {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        ul {
+            list-style: none;
+            position: absolute;
+            right: 0;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            li {
+                display: inline-block;
+                margin-right: 13px;
+                margin-left: 13px;
+                a {
+                    color: $NavLinkColor;
+                    display: block;
+                    padding: 6px 13px;
+                    font-size: 17px;
+                    text-decoration: none;
+                    transition: all ease 1s;
+                    font-weight: bold;
+                    &:hover {
+                        color: $NavColorHover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.FirstBox {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.InsideBox {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    $MyWidth: 100%;
+    flex-basis: $MyWidth/2;
+}
+
+.InsideBox>h1 {
+    padding-right: 650px;
+}
